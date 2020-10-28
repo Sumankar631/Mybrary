@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Mybrary</title>
 </head>
 <body>
-    <h1>hello</h1>
-    <h2>welcome
-    </h2>
-    <h3>suman</h3>
+    <div class="container">
+        <%- include('C:/Mybrary/views/partials/header.ejs') %>
+        <div class="inner-container">
+            <%- include('C:/Mybrary/views/partials/errorMessage.ejs') %>
+            <%- body %>
+            
+        </div>
+    </div>
+    
 </body>
 </html>
